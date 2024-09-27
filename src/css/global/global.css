@@ -1,0 +1,16 @@
+/*===================GLOBAL======================*/
+*{
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #ffffff;
+}
+.container{
+    position: relative;
+    width: 100%;
+}

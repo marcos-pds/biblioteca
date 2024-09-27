@@ -1,0 +1,38 @@
+/* ==================== Cards ===================*/
+.cardBox{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:30px;
+}
+.cardBox .card{
+    position: relative;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.10);
+    transition: 0.5s;
+    transform: translate(-50% -50%);
+    transition: 1.0s;
+    flex-direction: column;
+    align-items: center;
+}
+.card span{
+    font-weight: 900;
+}
+
+.cardBox .card{
+    background-image: linear-gradient(to left, var(--cor1),var(--cor2),var(--cor3),var(--cor4));
+    background-size: 2000%;
+}
+.card:hover{
+    background-position: right ;
+}
+.cardBox .card .iconBx{
+    position: relative;
+    font-size: 4.5rem;
+}
