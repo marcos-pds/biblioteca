@@ -164,3 +164,42 @@
     height: 100%;
     object-fit: cover;
 }
+@media(max-width: 991px){
+    .navegacao{
+        width: 0;
+        left: -10px;
+    }
+    .navegacao.ativo{
+        width: 300px;
+        left: 0;
+    }
+    .main{
+        width: 100%;
+        left: 0;
+    }
+    .main.ativo{
+        left: 300px;
+    }
+}
+@media(max-width: 480px){
+    .navegacao{
+       z-index: 1;
+        left: -100;
+    }
+    .navegacao.ativo{
+        width: 100%;
+        left: 0;
+    }
+    .toggle{
+        z-index: 2;
+    }
+    .main.ativo .toggle{
+        color: var(--branco);
+    }
+    .main.active .toggle{
+        color: var(--branco);
+        position: fixed;
+        right: 0;
+        left: initial;
+    }
+}
