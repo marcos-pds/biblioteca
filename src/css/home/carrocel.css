@@ -1,14 +1,12 @@
 .carrocel-container{
     position: relative;
     width: 100%;
-    padding: 20px;
     display: grid;
     grid-template-columns: 2fr 2fr;
     gap: 30px;
     display: grid;
     min-height: 500px;
     background: var(--branco);
-    padding: 20px;
     box-shadow: 50px 7px 25px 30px rgba(0, 0, 0, 0.08);
     justify-items: start;
 }
@@ -183,4 +181,9 @@ transform-style:preserve-3d;
     .carta{
         width: 50%;
     }
+    .carrocel-container .carrocel{
+        margin-left: 0;
+        margin-top: 0;
+        min-height: 0;
+        }
 }
