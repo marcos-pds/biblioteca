@@ -16,7 +16,6 @@
 margin-left: 70px;
 margin-top: 80px;
 min-height: 400px;
-
 }
 input[type=radio]{
     display: none;
@@ -103,7 +102,7 @@ transform-style:preserve-3d;
     margin-top: 50px;
     color: var(--preto);
     display: block;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     border-right: 14px solid var(--azul);
     white-space: nowrap;
     overflow: hidden;
@@ -158,5 +157,30 @@ transform-style:preserve-3d;
         margin: 0;
         margin-bottom: 20px;
         min-height: 0;
+    }
+
+}
+
+@media(max-width:1094px){
+    .msg h1{
+        font-size: 3.0rem;
+    }
+    .txt{
+       font-size: 1.5rem;
+    }
+    .carta{
+        width: 40%;
+    }
+}
+@media(max-width:480px){
+    .msg h1{
+        font-size: 2.0rem;
+    }
+    .txt{
+       font-size: 1.0rem;
+       line-height: 30px;
+    }
+    .carta{
+        width: 50%;
     }
 }
