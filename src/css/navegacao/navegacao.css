@@ -182,6 +182,10 @@
     }
 }
 @media(max-width: 600px){
+    .main.ativo{
+        width: calc(100% - 80px);
+        left: 80px;
+    }
     .navegacao{
        z-index: 1;
         left: -100;
