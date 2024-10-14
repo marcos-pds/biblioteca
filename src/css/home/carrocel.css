@@ -201,23 +201,45 @@ margin-top: 150px;
 
 @media(max-width:1094px){
     .msg h1{
-        font-size: 3.0rem;
+        font-size: 2.8rem;
+    }
+    .documentacao-container h1{
+        font-size: 2.8rem;
     }
     .txt{
-       font-size: 1.5rem;
+       font-size: 1.0rem;
+       line-height: 20px;
     }
     .carta{
         width: 40%;
     }
+    .txt-1{
+        font-size: 1.0rem;
+        line-height: 20px;
+    }
+    .documentação-img{
+        justify-self: center;
+        margin-left: 0px;
+        }
+        .documentação-img img{
+            width: 300px;
+        }
 }
-@media(max-width:480px){
+@media(max-width:600px){
     .msg h1{
-        font-size: 2.0rem;
+        font-size: 1.8rem;
+    }
+    .documentacao-container h1{
+        font-size: 1.8rem;
     }
     .txt{
-       font-size: 1.0rem;
-       line-height: 30px;
+       font-size: 0.8rem;
+       line-height: 20px;
     }
+    .txt-1{
+        font-size: 0.8rem;
+        line-height: 20px;
+     }
     .carta{
         width: 50%;
     }
