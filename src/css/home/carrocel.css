@@ -8,10 +8,9 @@
     min-height: 500px;
     background: var(--branco);
     box-shadow: 50px 7px 25px 30px rgba(0, 0, 0, 0.08);
-    justify-items: start;
 }
 .carrocel-container .carrocel{
-margin-left: 70px;
+margin-left: 100px;
 margin-top: 80px;
 min-height: 400px;
 }
@@ -100,7 +99,7 @@ transform-style:preserve-3d;
     margin-top: 50px;
     color: var(--preto);
     display: block;
-    font-size: 4.5rem;
+    font-size: 4.1rem;
     border-right: 14px solid var(--azul);
     white-space: nowrap;
     overflow: hidden;
@@ -119,6 +118,7 @@ transform-style:preserve-3d;
     line-height: 40px;
     font-size: 1.8rem;
     color: #5c5c5c;
+    justify-self: start;
     white-space: nowrap;
 }
 @keyframes mark {
@@ -140,6 +140,46 @@ transform-style:preserve-3d;
         width: 15ch;
     }
 }
+
+.txt-1{
+    margin-top: 30px;
+    line-height: 40px;
+    font-size: 1.8rem;
+    color: #5c5c5c;
+    justify-self: start;
+    word-spacing: wrap;
+}
+
+.documentação-img{
+margin-left: 100px;
+margin-top: 150px;
+}
+
+.documentacao-container{
+    margin-left: 70px;
+    margin-top: 200px;
+}
+.documentacao-container h1{
+    font-size: 3.0rem;
+}
+
+.css-1{
+    color: var(--azul);
+    font-weight: 900;
+}
+.js-1{
+    color: #cca21a;
+    font-weight: 900;
+}
+.react-1{
+    color: var(--azul);
+    font-weight: 900;
+}
+.html-1{
+    color: #d42f19;
+    font-weight: 900;
+}
+
 @media(max-width:1600px){
     .carrocel-container{
         grid-template-columns: 1fr;
